@@ -97,7 +97,7 @@ var autoRegistrationMap = map[string]CABundleSource{
 			},
 			{
 				SecretName: istiodCertManagerSecretName,
-				Key:        common.IstiodTLSSecretCertKey,
+				Key:        common.IstiodTLSSecretCertCAKey,
 			},
 		},
 	},
